@@ -16,7 +16,7 @@ public class MainClass {
 	
 	public static void main (String[] args) {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\cc555e\\Desktop\\jenkinstest\\geckodriver-v0.23.0-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "\\var\\lib\\jenkins\\workspace\\Selenium_Test\\lib\\geckodriver.exe");
 		    WebDriver driver = new FirefoxDriver();
 		    
             
